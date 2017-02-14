@@ -1,0 +1,69 @@
+Last login: Tue Feb  7 12:25:17 on ttys001
+Users-MacBook-Pro-3:~ user$ ls 
+Applications		Library			Untitled
+Desktop			Movies			Untitled alias
+Documents		Music			Untitled alias 2
+Downloads		Pictures		Untitled alias 3
+GitHub			Public			nltk_data
+Users-MacBook-Pro-3:~ user$ cd Desktop
+Users-MacBook-Pro-3:Desktop user$ ls
+10928148_10202351047977564_1686400852_n.jpg
+College Screenshots 
+DataAnalytics2
+DataCoding1
+GRAD 
+HIS 112 Essay - Google Docs.pdf
+IMG_4005.jpg
+Random Photos
+STATES 
+Sam's Resume.pages
+Screen Shot 2016-12-09 at 12.52.43 PM.png
+Screen Shot 2017-01-02 at 6.00.17 PM.png
+Screen Shot 2017-01-02 at 9.28.23 PM.png
+Solin
+Solin Piearcy-VMC Film "Hectically Hoverboarding".m4v
+Spring Schedule.pdf
+Transcript Ordering Center.pdf
+Wish Order
+tryagain
+user
+Users-MacBook-Pro-3:Desktop user$ cd tryagain
+Users-MacBook-Pro-3:tryagain user$ ls 
+2classifiers.py		againagaintry.py	simplerstockpredict.py
+WTF.py			anothertest.py		tweepy.py
+aapl.csv		classifiers.py		tweepy2results.py
+Users-MacBook-Pro-3:tryagain user$ python simplerstockpredict.py
+python aapl.csv
+
+
+
+^[[A^[[A^[[A^[[A^[[A
+ exit 
+
+^D
+D^
+ 
+
+python 3
+echo "hi" 
+
+/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/matplotlib/collections.py:446: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == 'face':
+Users-MacBook-Pro-3:tryagain user$ python aapl.csv
+Traceback (most recent call last):
+  File "aapl.csv", line 1, in <module>
+    ﻿Date,Open,High,Low,Close,Volume
+NameError: name 'Date' is not defined
+Users-MacBook-Pro-3:tryagain user$ 
+Users-MacBook-Pro-3:tryagain user$ 
+Users-MacBook-Pro-3:tryagain user$ 
+Users-MacBook-Pro-3:tryagain user$ ls
+2classifiers.py		againagaintry.py	tweepy.py
+NeuralNet.py		anothertest.py		tweepy2results.py
+WTF.py			classifiers.py
+aapl.csv		simplerstockpredict.py
+Users-MacBook-Pro-3:tryagain user$  exit 
+logout
+
+[Process completed]
+
