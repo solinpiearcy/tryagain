@@ -1,0 +1,59 @@
+Last login: Thu Feb 16 11:59:26 on ttys001
+Users-MacBook-Pro-3:tryagain user$ ls
+2classifiers.py
+NeuralNet.py
+NeuralNetResults
+Screen Shot 2017-02-14 at 11.28.07 AM.png
+SimplerstockpredictResult
+WTF.py
+__pycache__
+aapl.csv
+againagaintry.py
+anothertest.py
+attemptfixtweepyresults
+classifiers.py
+simplerstockpredict.py
+tweepy.pyc
+tweepy2results.py
+Users-MacBook-Pro-3:tryagain user$ python3 NeuralNet.py
+  File "NeuralNet.py", line 81
+    print "Error: " + str(np.mean(np.abs(l2_error)))
+                  ^
+SyntaxError: invalid syntax
+Users-MacBook-Pro-3:tryagain user$ python NeuralNet.py
+Error: 0.499986372592
+Error: 0.0113792866499
+Error: 0.00773645691244
+Error: 0.00621205750463
+Error: 0.00532661631061
+Error: 0.00473185415532
+Output after training
+[[ 0.00395022]
+ [ 0.99713519]
+ [ 0.99483657]
+ [ 0.00521219]]
+Users-MacBook-Pro-3:tryagain user$ python NeuralNet.py
+Error: 0.498644332021
+Error: 0.00967568983923
+Error: 0.00666845269108
+Error: 0.00538629399478
+Error: 0.00463499181263
+Error: 0.00412757272193
+Output after training
+[[ 0.00216388]
+ [ 0.9960038 ]
+ [ 0.99581599]
+ [ 0.00467879]]
+Users-MacBook-Pro-3:tryagain user$ python NeuralNet.py
+Error: 0.49997244225
+Error: 0.00892400663277
+Error: 0.00597546127481
+Error: 0.00475901808975
+Error: 0.00405897039074
+Error: 0.00359186418053
+Output after training
+[[ 0.00226377]
+ [ 0.9966489 ]
+ [ 0.99657992]
+ [ 0.00397548]]
+Users-MacBook-Pro-3:tryagain user$ 
