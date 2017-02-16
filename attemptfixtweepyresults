@@ -1,0 +1,106 @@
+Users-MacBook-Pro-3:tryagain user$ mv tweepy.py /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tweepy.py
+mv: rename tweepy.py to /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tweepy.py: No such file or directory
+Users-MacBook-Pro-3:tryagain user$ mv tweepy.py Desktop
+mv: rename tweepy.py to Desktop: No such file or directory
+Users-MacBook-Pro-3:tryagain user$ mv WTFcopy.py /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages
+Users-MacBook-Pro-3:tryagain user$ ls
+2classifiers.py
+NeuralNet.py
+NeuralNetResults
+Screen Shot 2017-02-14 at 11.28.07 AM.png
+SimplerstockpredictResult
+WTF.py
+__pycache__
+aapl.csv
+againagaintry.py
+anothertest.py
+classifiers.py
+simplerstockpredict.py
+tweepy.pyc
+tweepy2results.py
+Users-MacBook-Pro-3:tryagain user$ python3 WTF.py
+Traceback (most recent call last):
+  File "WTF.py", line 1, in <module>
+    import tweepy
+ImportError: bad magic number in 'tweepy': b'\x03\xf3\r\n'
+Users-MacBook-Pro-3:tryagain user$ 
+
+
+
+Last login: Thu Feb 16 11:45:26 on ttys000
+Users-MacBook-Pro-3:~ user$ cd /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages
+Users-MacBook-Pro-3:site-packages user$ ls
+README					requests
+README.txt				requests-2.13.0.dist-info
+__pycache__				requests_oauthlib
+easy_install.py				requests_oauthlib-0.8.0.dist-info
+examples				setuptools
+nltk					setuptools-28.8.0.dist-info
+nltk-3.2.2-py3.6.egg-info		six-1.10.0.dist-info
+oauthlib				six.py
+oauthlib-2.0.1-py3.6.egg-info		textblob
+pip					textblob-0.11.1.dist-info
+pip-9.0.1.dist-info			tweepy
+pkg_resources				tweepy-3.5.0.dist-info
+Users-MacBook-Pro-3:site-packages user$ ls
+README					requests
+README.txt				requests-2.13.0.dist-info
+WTFcopy.py				requests_oauthlib
+__pycache__				requests_oauthlib-0.8.0.dist-info
+easy_install.py				setuptools
+examples				setuptools-28.8.0.dist-info
+nltk					six-1.10.0.dist-info
+nltk-3.2.2-py3.6.egg-info		six.py
+oauthlib				textblob
+oauthlib-2.0.1-py3.6.egg-info		textblob-0.11.1.dist-info
+pip					tweepy
+pip-9.0.1.dist-info			tweepy-3.5.0.dist-info
+pkg_resources
+Users-MacBook-Pro-3:site-packages user$ python3 WTFcopy.py
+@OKDProductions what the actual fuck
+Sentiment(polarity=-0.2, subjectivity=0.35)
+
+This Preston is a beautiful young man, what the fuck does he see in Michelle? Does she take it up the harris or something? #EastEnders
+Sentiment(polarity=0.18333333333333332, subjectivity=0.6666666666666666)
+
+What the fuck is this? What just happened? Goddamn... https://t.co/hpeCnBdy5A
+Sentiment(polarity=-0.4, subjectivity=0.6)
+
+UMG DEADASS GAVE MY USERNAME AWAY WHAT THE FUCK @UMGOnline https://t.co/kFjGN4RINL
+Sentiment(polarity=-0.4, subjectivity=0.6)
+
+@justlosttbh @DunceBass He knows that he has an awesome job. Doesnt mean he has to be positive 24/7. Why the fuck do you care what he says?
+Sentiment(polarity=0.12869318181818182, subjectivity=0.7082386363636364)
+
+lrt wHAT THE FUCK
+Sentiment(polarity=-0.4, subjectivity=0.6)
+
+RT @spotted_menace: You know what?
+
+I'm happy - really and truly - for the people that still want to fuck with me after getting to know me.
+Sentiment(polarity=0.19999999999999998, subjectivity=0.6)
+
+🤷🏻‍♀️ what the fuck!? https://t.co/r4TvNv40OA
+Sentiment(polarity=-0.5, subjectivity=0.6)
+
+RT @angeIdoll: WHAT THE FUCK IS UP KYLE https://t.co/qPKOgJ3G6N
+Sentiment(polarity=-0.4, subjectivity=0.6)
+
+@notallbees wait whoa what the fuck is this bullshit
+Sentiment(polarity=-0.4, subjectivity=0.6)
+
+Press conference, schmress schmronference. What the fuck is Paul Simon holding on the cover of Simon &amp; Garfunkel's… https://t.co/U6OQobL195
+Sentiment(polarity=-0.4, subjectivity=0.6)
+
+RT @BenKgosimore: I don't understand the part where they still talk regularly. Like what the fuck! Delete that nigga from your reality!!!!!…
+Sentiment(polarity=-0.25, subjectivity=0.3384615384615385)
+
+RT @hennythewitch: black people so beautiful like what...the...fuck
+Sentiment(polarity=0.3416666666666667, subjectivity=0.7166666666666667)
+
+@spurthimk girl i was half asleep but that comment woke me the fuck up like .......what......??? LMAO https://t.co/bwCq7hQFhf
+Sentiment(polarity=0.011111111111111108, subjectivity=0.5888888888888889)
+
+RT @Karnythia: Raise your hand if what you needed was Susan Sarandon &amp; company to shut the fuck up &amp; listen. https://t.co/vnzczg6sl8
+Sentiment(polarity=-0.4, subjectivity=0.6)
+

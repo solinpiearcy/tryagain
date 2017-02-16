@@ -68,7 +68,7 @@ syn1 = 2*np.random.random((4,1)) - 1  # 4x1 matrix of weights. (4 nodes x 1 outp
 # In[7]:
 
 #training step
-for j in xrange(381735):  
+for j in xrange(60000):  
     
     # Calculate forward through the network.
     l0 = X
