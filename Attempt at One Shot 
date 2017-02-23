@@ -1,0 +1,81 @@
+Last login: Thu Feb 16 12:15:08 on ttys000
+Users-MacBook-Pro-3:~ user$ ls
+Applications		Library			Untitled
+Desktop			Movies			Untitled alias
+Documents		Music			Untitled alias 2
+Downloads		Pictures		Untitled alias 3
+GitHub			Public			nltk_data
+Users-MacBook-Pro-3:~ user$ cd Desktop
+Users-MacBook-Pro-3:Desktop user$ ls
+10928148_10202351047977564_1686400852_n.jpg
+College Screenshots 
+DataAnalytics2
+GRAD 
+HIS 112 Essay - Google Docs.pdf
+IMG_4005.jpg
+Random Photos
+STATES 
+Sam's Resume.pages
+Screen Shot 2016-12-09 at 12.52.43 PM.png
+Screen Shot 2017-01-02 at 6.00.17 PM.png
+Screen Shot 2017-01-02 at 9.28.23 PM.png
+Solin
+Solin Piearcy-VMC Film "Hectically Hoverboarding".m4v
+Spring Schedule.pdf
+Transcript Ordering Center.pdf
+Wish Order
+tryagain
+user
+Users-MacBook-Pro-3:Desktop user$ cd tryagain
+Users-MacBook-Pro-3:tryagain user$ ls
+2classifiers.py
+ChangeNeuralNetResult2 
+NeuralNet.py
+NeuralNetResults
+OneShot.py
+Screen Shot 2017-02-14 at 11.28.07 AM.png
+SimplerstockpredictResult
+WTF.py
+__pycache__
+aapl.csv
+againagaintry.py
+anothertest.py
+attemptfixtweepyresults
+classifiers.py
+simplerstockpredict.py
+tweepy.pyc
+tweepy2results.py
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+  File "OneShot.py", line 124
+SyntaxError: Non-ASCII character '\xef' in file OneShot.py on line 124, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+  File "OneShot.py", line 124
+SyntaxError: Non-ASCII character '\xef' in file OneShot.py on line 124, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+  File "OneShot.py", line 124
+SyntaxError: Non-ASCII character '\xef' in file OneShot.py on line 124, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+  File "OneShot.py", line 124
+SyntaxError: Non-ASCII character '\xef' in file OneShot.py on line 124, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+  File "OneShot.py", line 124
+SyntaxError: Non-ASCII character '\xef' in file OneShot.py on line 124, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+  File "OneShot.py", line 124
+SyntaxError: Non-ASCII character '\xef' in file OneShot.py on line 124, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+Users-MacBook-Pro-3:tryagain user$ 
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+  File "OneShot.py", line 124
+SyntaxError: Non-ASCII character '\xef' in file OneShot.py on line 124, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+  File "OneShot.py", line 124
+SyntaxError: Non-ASCII character '\xef' in file OneShot.py on line 124, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+Traceback (most recent call last):
+  File "OneShot.py", line 121, in <module>
+    'cost')
+  File "OneShot.py", line 31, in classification_run
+    with open(os.path.join(path_to_all_runs, folder, fname_label)) as f:
+IOError: [Errno 2] No such file or directory: '/Users/user/Desktop/tryagain/all_runs/run01/class_labels.txt'
+Users-MacBook-Pro-3:tryagain user$ 

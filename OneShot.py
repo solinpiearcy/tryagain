@@ -121,4 +121,4 @@ if __name__ == "__main__":
                                        'cost')
         print(' run {:02d} (error {:.1f}%)'.format(r, perror[r]))
     total = np.mean(perror)
-    print('Average error {:.1f}%'.format(total)) 
+    print('Average error {:.1f}%'.format(total))
