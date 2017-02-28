@@ -1,0 +1,233 @@
+Last login: Thu Feb 23 11:45:54 on ttys001
+Users-MacBook-Pro-3:~ user$ ls 
+Applications		Library			Untitled
+Desktop			Movies			Untitled alias
+Documents		Music			Untitled alias 2
+Downloads		Pictures		Untitled alias 3
+GitHub			Public			nltk_data
+Users-MacBook-Pro-3:~ user$ cd Desktop
+Users-MacBook-Pro-3:Desktop user$ ls
+10928148_10202351047977564_1686400852_n.jpg
+College Screenshots 
+DataAnalytics2
+GRAD 
+HIS 112 Essay - Google Docs.pdf
+IMG_4005.jpg
+Random Photos
+STATES 
+Sam's Resume.pages
+Screen Shot 2016-12-09 at 12.52.43 PM.png
+Screen Shot 2017-01-02 at 6.00.17 PM.png
+Screen Shot 2017-01-02 at 9.28.23 PM.png
+Solin
+Solin Piearcy-VMC Film "Hectically Hoverboarding".m4v
+Spring Schedule.pdf
+Transcript Ordering Center.pdf
+Wish Order
+tryagain
+user
+Users-MacBook-Pro-3:Desktop user$ cd tryagain
+Users-MacBook-Pro-3:tryagain user$ ls
+2classifiers.py
+Attempt at One Shot 
+ChangeNeuralNetResult2 
+DataRecap.pdf
+NeuralNet.py
+NeuralNetResults
+OneShot.py
+Screen Shot 2017-02-14 at 11.28.07 AM.png
+SimplerstockpredictResult
+WTF.py
+__pycache__
+aapl.csv
+againagaintry.py
+anothertest.py
+attemptfixtweepyresults
+classifiers.py
+simplerstockpredict.py
+training_copy
+tweepy.pyc
+tweepy2results.py
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+Traceback (most recent call last):
+  File "OneShot.py", line 121, in <module>
+    'cost')
+  File "OneShot.py", line 31, in classification_run
+    with open(os.path.join(path_to_all_runs, folder, fname_label)) as f:
+IOError: [Errno 2] No such file or directory: '/Users/user/Desktop/tryagain/all_runs/run01/class_labels.txt'
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+Traceback (most recent call last):
+  File "OneShot.py", line 121, in <module>
+    'cost')
+  File "OneShot.py", line 31, in classification_run
+    with open(os.path.join(path_to_all_runs, folder, fname_label)) as f:
+IOError: [Errno 2] No such file or directory: '/Users/user/Desktop/tryagain/all_runs/run01/class_labels.txt'
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+Traceback (most recent call last):
+  File "OneShot.py", line 121, in <module>
+    'cost')
+  File "OneShot.py", line 31, in classification_run
+    with open(os.path.join(path_to_all_runs, folder, fname_label)) as f:
+IOError: [Errno 2] No such file or directory: '/Users/user/Desktop/tryagain/all_runs/run01/class_labels.txt'
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+Traceback (most recent call last):
+  File "OneShot.py", line 121, in <module>
+    'cost')
+  File "OneShot.py", line 31, in classification_run
+    with open(os.path.join(path_to_all_runs, folder, fname_label)) as f:
+IOError: [Errno 2] No such file or directory: '/Users/user/Desktop/tryagain/all_runs/run01/class_labels.txt'
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+Traceback (most recent call last):
+  File "OneShot.py", line 121, in <module>
+    'cost')
+  File "OneShot.py", line 31, in classification_run
+    with open(os.path.join(path_to_all_runs, folder, fname_label)) as f:
+IOError: [Errno 2] No such file or directory: '/Users/user/Desktop/tryagain/all_runs/run01/class_labels.txt'
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+Traceback (most recent call last):
+  File "OneShot.py", line 120, in <module>
+    modified_hausdorf_distance)
+  File "OneShot.py", line 31, in classification_run
+    with open(os.path.join(path_to_all_runs, folder, fname_label)) as f:
+IOError: [Errno 2] No such file or directory: '/Users/user/Desktop/tryagain/all_runs/run01/class_labels.txt'
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+Traceback (most recent call last):
+  File "OneShot.py", line 121, in <module>
+    'cost')
+  File "OneShot.py", line 31, in classification_run
+    with open(os.path.join(path_to_all_runs, folder, fname_label)) as f:
+IOError: [Errno 2] No such file or directory: '/Users/user/Desktop/tryagain/all_runs/run01/class_labels.txt'
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+Traceback (most recent call last):
+  File "OneShot.py", line 121, in <module>
+    'cost')
+  File "OneShot.py", line 31, in classification_run
+    with open(os.path.join(path_to_all_runs, folder, fname_label)) as f:
+IOError: [Errno 2] No such file or directory: '/Users/user/Desktop/tryagain/all_runs/run01/class_labels.txt'
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+Traceback (most recent call last):
+  File "OneShot.py", line 121, in <module>
+    'cost')
+  File "OneShot.py", line 31, in classification_run
+    with open(os.path.join(path_to_all_runs, folder, fname_label)) as f:
+IOError: [Errno 2] No such file or directory: '/Users/user/Desktop/tryagain/all_runs/run01/class_labels.txt'
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+Traceback (most recent call last):
+  File "OneShot.py", line 121, in <module>
+    'cost')
+  File "OneShot.py", line 31, in classification_run
+    with open(os.path.join(path_to_all_runs, folder, fname_label)) as f:
+IOError: [Errno 2] No such file or directory: '/Users/user/Desktop/tryagain/all_runs/run01/class_labels.txt'
+Users-MacBook-Pro-3:tryagain user$ ls
+2classifiers.py
+Attempt at One Shot 
+ChangeNeuralNetResult2 
+DataRecap.pdf
+NeuralNet.py
+NeuralNetResults
+Screen Shot 2017-02-14 at 11.28.07 AM.png
+SimplerstockpredictResult
+WTF.py
+__pycache__
+aapl.csv
+againagaintry.py
+anothertest.py
+attemptfixtweepyresults
+class_labels.txt
+classifiers.py
+fname_label.txt
+simplerstockpredict.py
+tweepy.pyc
+tweepy2results.py
+Users-MacBook-Pro-3:tryagain user$ cd fname_label
+-bash: cd: fname_label: No such file or directory
+Users-MacBook-Pro-3:tryagain user$ cd fname_label.txt
+Users-MacBook-Pro-3:fname_label.txt user$ ls
+OneShot.py	class05.png	class10.png	class15.png	class20.png
+class01.png	class06.png	class11.png	class16.png
+class02.png	class07.png	class12.png	class17.png
+class03.png	class08.png	class13.png	class18.png
+class04.png	class09.png	class14.png	class19.png
+Users-MacBook-Pro-3:fname_label.txt user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+Traceback (most recent call last):
+  File "OneShot.py", line 121, in <module>
+    'cost')
+  File "OneShot.py", line 31, in classification_run
+    with open(os.path.join(path_to_all_runs, folder, fname_label)) as f:
+IOError: [Errno 2] No such file or directory: '/Users/user/Desktop/tryagain/fname_label.txt/all_runs/run01/class_labels.txt'
+Users-MacBook-Pro-3:fname_label.txt user$ cd ..
+Users-MacBook-Pro-3:tryagain user$ ls
+2classifiers.py
+Attempt at One Shot 
+ChangeNeuralNetResult2 
+DataRecap.pdf
+NeuralNet.py
+NeuralNetResults
+Screen Shot 2017-02-14 at 11.28.07 AM.png
+SimplerstockpredictResult
+WTF.py
+__pycache__
+aapl.csv
+againagaintry.py
+anothertest.py
+attemptfixtweepyresults
+class_labels.txt
+classifiers.py
+fname_label
+simplerstockpredict.py
+tweepy.pyc
+tweepy2results.py
+Users-MacBook-Pro-3:tryagain user$ cd fname_label
+Users-MacBook-Pro-3:fname_label user$ ls
+OneShot.py	class05.png	class10.png	class15.png	class20.png
+class01.png	class06.png	class11.png	class16.png
+class02.png	class07.png	class12.png	class17.png
+class03.png	class08.png	class13.png	class18.png
+class04.png	class09.png	class14.png	class19.png
+Users-MacBook-Pro-3:fname_label user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+Traceback (most recent call last):
+  File "OneShot.py", line 121, in <module>
+    'cost')
+  File "OneShot.py", line 31, in classification_run
+    with open(os.path.join(path_to_all_runs, folder, fname_label)) as f:
+IOError: [Errno 2] No such file or directory: '/Users/user/Desktop/tryagain/fname_label/all_runs/run01/class_labels.txt'
+Users-MacBook-Pro-3:fname_label user$ python OneShot.py
+python: can't open file 'OneShot.py': [Errno 2] No such file or directory
+Users-MacBook-Pro-3:fname_label user$ cd ..
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+Traceback (most recent call last):
+  File "OneShot.py", line 121, in <module>
+    'cost')
+  File "OneShot.py", line 44, in classification_run
+    for f in train_files]
+  File "OneShot.py", line 96, in load_img_as_points
+    I = imread(filename, flatten=True)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy/ndimage/io.py", line 32, in imread
+    raise ImportError("Could not import the Python Imaging Library (PIL)"
+ImportError: Could not import the Python Imaging Library (PIL) required to load image files.  Please refer to http://pypi.python.org/pypi/PIL/ for installation instructions.
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+Traceback (most recent call last):
+  File "OneShot.py", line 121, in <module>
+    'cost')
+  File "OneShot.py", line 44, in classification_run
+    for f in train_files]
+  File "OneShot.py", line 96, in load_img_as_points
+    I = imread(filename, flatten=True)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy/ndimage/io.py", line 32, in imread
+    raise ImportError("Could not import the Python Imaging Library (PIL)"
+ImportError: Could not import the Python Imaging Library (PIL) required to load image files.  Please refer to http://pypi.python.org/pypi/PIL/ for installation instructions.
+Users-MacBook-Pro-3:tryagain user$ 
