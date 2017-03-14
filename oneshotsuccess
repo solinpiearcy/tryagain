@@ -1,0 +1,92 @@
+Users-MacBook-Pro-3:Desktop user$ easy_install Pillow
+error: can't create or remove files in install directory
+
+The following error occurred while trying to add or remove files in the
+installation directory:
+
+    [Errno 13] Permission denied: '/Library/Python/2.7/site-packages/test-easy-install-13929.write-test'
+
+The installation directory you specified (via --install-dir, --prefix, or
+the distutils default setting) was:
+
+    /Library/Python/2.7/site-packages/
+
+Perhaps your account does not have write access to this directory?  If the
+installation directory is a system-owned directory, you may need to sign in
+as the administrator or "root" account.  If you do not have administrative
+access to this machine, you may wish to choose a different installation
+directory, preferably one that is listed in your PYTHONPATH environment
+variable.
+
+For information on other options, you may wish to consult the
+documentation at:
+
+  http://peak.telecommunity.com/EasyInstall.html
+
+Please make the appropriate changes for your system and try again.
+
+Users-MacBook-Pro-3:Desktop user$ sudo pip install Pillow
+Password:
+The directory '/Users/user/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/Users/user/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting Pillow
+/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/_vendor/requests/packages/urllib3/util/ssl_.py:318: SNIMissingWarning: An HTTPS request has been made, but the SNI (Subject Name Indication) extension to TLS is not available on this platform. This may cause the server to present an incorrect TLS certificate, which can cause validation failures. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.io/en/latest/security.html#snimissingwarning.
+  SNIMissingWarning
+/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/_vendor/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.io/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+  Downloading Pillow-4.0.0-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (3.4MB)
+    100% |████████████████████████████████| 3.4MB 286kB/s 
+Collecting olefile (from Pillow)
+  Downloading olefile-0.44.zip (74kB)
+    100% |████████████████████████████████| 81kB 3.1MB/s 
+Installing collected packages: olefile, Pillow
+  Running setup.py install for olefile ... done
+Successfully installed Pillow-4.0.0 olefile-0.44
+/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/_vendor/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.io/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+Users-MacBook-Pro-3:Desktop user$ ls
+10928148_10202351047977564_1686400852_n.jpg
+College Screenshots 
+DataAnalytics2
+GRAD 
+HIS 112 Essay - Google Docs.pdf
+IMG_4005.jpg
+Random Photos
+STATES 
+Sam's Resume.pages
+Screen Shot 2016-12-09 at 12.52.43 PM.png
+Screen Shot 2017-01-02 at 6.00.17 PM.png
+Screen Shot 2017-01-02 at 9.28.23 PM.png
+Screen Shot 2017-03-10 at 10.15.23 AM.png
+Screen Shot 2017-03-10 at 9.01.50 AM.png
+Solin
+Solin Piearcy-VMC Film "Hectically Hoverboarding".m4v
+Spring Schedule.pdf
+Transcript Ordering Center.pdf
+Wish Order
+tryagain
+user
+Users-MacBook-Pro-3:Desktop user$ cd tryagain
+Users-MacBook-Pro-3:tryagain user$ python OneShot.py
+One-shot classification demo with Modified Hausdorff Distance
+ run 00 (error 45.0%)
+ run 01 (error 35.0%)
+ run 02 (error 40.0%)
+ run 03 (error 25.0%)
+ run 04 (error 30.0%)
+ run 05 (error 15.0%)
+ run 06 (error 60.0%)
+ run 07 (error 35.0%)
+ run 08 (error 40.0%)
+ run 09 (error 55.0%)
+ run 10 (error 15.0%)
+ run 11 (error 70.0%)
+ run 12 (error 65.0%)
+ run 13 (error 35.0%)
+ run 14 (error 15.0%)
+ run 15 (error 25.0%)
+ run 16 (error 30.0%)
+ run 17 (error 40.0%)
+ run 18 (error 70.0%)
+ run 19 (error 30.0%)
+Average error 38.8%
