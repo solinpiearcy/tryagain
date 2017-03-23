@@ -1,0 +1,325 @@
+App Store.app			GitHub Desktop.app		Skitch.app
+Applications			Image Capture.app		Stickies.app
+Automator.app			Launchpad.app			Sublime Text.app
+Avast.app			Mail.app			System Preferences.app
+AvastSecureLine.app		Maps.app			TextEdit.app
+Calculator.app			Messages.app			Time Machine.app
+Calendar.app			Microsoft Silverlight		Uninstall SafeConnect.app
+Chess.app			Mission Control.app		Utilities
+Contacts.app			Notes.app			iBooks.app
+DVD Player.app			Photo Booth.app			iDVD.app
+Dashboard.app			Preview.app			iMovie.app
+Dictionary.app			Python 3.6			iPhoto.app
+FaceTime.app			QuickTime Player.app		iTunes.app
+Firefox.app			Reminders.app			iWeb.app
+Font Book.app			Safari.app			iWork '09
+Game Center.app			SafeConnect.app
+Users-MacBook-Pro-3:Applications user$ cd ..
+Users-MacBook-Pro-3:/ user$ ls
+Applications	System		bin		home		private		usr
+Library		Users		dev		mach_kernel	sbin		var
+Network		Volumes		etc		net		tmp
+Users-MacBook-Pro-3:/ user$ cd Library 
+Users-MacBook-Pro-3:Library user$ ls
+Application Support	Extensions		Messages		Screen Savers
+Audio			Filesystems		Modem Scripts		ScriptingAdditions
+Bundles			Fonts			OpenDirectory		Scripts
+Caches			Frameworks		PDF Services		Security
+ColorPickers		Google			Perl			Speech
+ColorSync		Graphics		PreferencePanes		Spelling
+Components		Image Capture		Preferences		Spotlight
+Compositions		Input Methods		Printers		StartupItems
+Contextual Menu Items	Internet Plug-Ins	PrivilegedHelperTools	SystemProfiler
+CoreMediaIO		Java			Python			Updates
+Desktop Pictures	Keyboard Layouts	QuickLook		User Pictures
+Developer		Keychains		QuickTime		Video
+Dictionaries		LaunchAgents		Receipts		WebServer
+DirectoryServices	LaunchDaemons		Ruby			Widgets
+Documentation		Logs			Sandbox			iTunes
+Users-MacBook-Pro-3:Library user$ cd Python
+Users-MacBook-Pro-3:Python user$ ls
+2.3	2.5	2.6	2.7
+Users-MacBook-Pro-3:Python user$ cd ..
+Users-MacBook-Pro-3:Library user$ cd 2.7 
+-bash: cd: 2.7: No such file or directory
+Users-MacBook-Pro-3:Library user$ cd 2.7 
+-bash: cd: 2.7: No such file or directory
+Users-MacBook-Pro-3:Library user$ ls
+Application Support	Extensions		Messages		Screen Savers
+Audio			Filesystems		Modem Scripts		ScriptingAdditions
+Bundles			Fonts			OpenDirectory		Scripts
+Caches			Frameworks		PDF Services		Security
+ColorPickers		Google			Perl			Speech
+ColorSync		Graphics		PreferencePanes		Spelling
+Components		Image Capture		Preferences		Spotlight
+Compositions		Input Methods		Printers		StartupItems
+Contextual Menu Items	Internet Plug-Ins	PrivilegedHelperTools	SystemProfiler
+CoreMediaIO		Java			Python			Updates
+Desktop Pictures	Keyboard Layouts	QuickLook		User Pictures
+Developer		Keychains		QuickTime		Video
+Dictionaries		LaunchAgents		Receipts		WebServer
+DirectoryServices	LaunchDaemons		Ruby			Widgets
+Documentation		Logs			Sandbox			iTunes
+Users-MacBook-Pro-3:Library user$ cd Python
+Users-MacBook-Pro-3:Python user$ ls
+2.3	2.5	2.6	2.7
+Users-MacBook-Pro-3:Python user$ cd 2.7
+Users-MacBook-Pro-3:2.7 user$ ls
+site-packages
+Users-MacBook-Pro-3:2.7 user$ cd site-packages
+Users-MacBook-Pro-3:site-packages user$ ls
+OleFileIO_PL.py					requests-2.13.0-py2.7.egg
+OleFileIO_PL.pyc				requests-2.13.0.dist-info
+PIL						requests_oauthlib
+Pillow-4.0.0.dist-info				requests_oauthlib-0.7.0-py2.7.egg
+README						requests_oauthlib-0.7.0.dist-info
+againagaintry.py				scikit_learn-0.18.1.dist-info
+easy-install.pth				six-1.10.0-py2.7.egg
+examples					six-1.10.0.dist-info
+nltk						six.py
+nltk-3.2.2-py2.7.egg-info			six.pyc
+numpy-1.12.0-py2.7-macosx-10.9-intel.egg	sklearn
+oauthlib					textblob
+oauthlib-2.0.1-py2.7.egg-info			textblob-0.11.1.dist-info
+olefile						tweepy
+olefile-0.44-py2.7.egg-info			tweepy-3.5.0-py2.7.egg
+pip-9.0.1-py2.7.egg				tweepy-3.5.0.dist-info
+requests					tweepy2.py
+Users-MacBook-Pro-3:site-packages user$ sudo pip install tensorflow
+Password:
+The directory '/Users/user/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/Users/user/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting tensorflow
+/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/_vendor/requests/packages/urllib3/util/ssl_.py:318: SNIMissingWarning: An HTTPS request has been made, but the SNI (Subject Name Indication) extension to TLS is not available on this platform. This may cause the server to present an incorrect TLS certificate, which can cause validation failures. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.io/en/latest/security.html#snimissingwarning.
+  SNIMissingWarning
+/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/_vendor/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.io/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+  Could not find a version that satisfies the requirement tensorflow (from versions: )
+No matching distribution found for tensorflow
+/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/_vendor/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.io/en/latest/security.html#insecureplatformwarning.
+Users-MacBook-Pro-3:site-packages user$ pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.1-py2-none-any.whl
+Collecting tensorflow==0.12.1 from https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.1-py2-none-any.whl
+/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/_vendor/requests/packages/urllib3/util/ssl_.py:318: SNIMissingWarning: An HTTPS request has been made, but the SNI (Subject Name Indication) extension to TLS is not available on this platform. This may cause the server to present an incorrect TLS certificate, which can cause validation failures. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.io/en/latest/security.html#snimissingwarning.
+  SNIMissingWarning
+/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/_vendor/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.io/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+  Downloading https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.1-py2-none-any.whl (38.8MB)
+    100% |████████████████████████████████| 38.8MB 21kB/s 
+Collecting wheel (from tensorflow==0.12.1)
+/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/_vendor/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.io/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+  Downloading wheel-0.29.0-py2.py3-none-any.whl (66kB)
+    100% |████████████████████████████████| 71kB 2.3MB/s 
+Collecting protobuf>=3.1.0 (from tensorflow==0.12.1)
+  Downloading protobuf-3.2.0-py2.py3-none-any.whl (360kB)
+    100% |████████████████████████████████| 368kB 1.5MB/s 
+Requirement already satisfied: six>=1.10.0 in ./six-1.10.0-py2.7.egg (from tensorflow==0.12.1)
+Requirement already satisfied: numpy>=1.11.0 in ./numpy-1.12.0-py2.7-macosx-10.9-intel.egg (from tensorflow==0.12.1)
+Collecting mock>=2.0.0 (from tensorflow==0.12.1)
+  Downloading mock-2.0.0-py2.py3-none-any.whl (56kB)
+    100% |████████████████████████████████| 61kB 4.2MB/s 
+Requirement already satisfied: setuptools in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from protobuf>=3.1.0->tensorflow==0.12.1)
+Collecting funcsigs>=1; python_version < "3.3" (from mock>=2.0.0->tensorflow==0.12.1)
+  Downloading funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock>=2.0.0->tensorflow==0.12.1)
+  Downloading pbr-2.0.0-py2.py3-none-any.whl (98kB)
+    100% |████████████████████████████████| 102kB 1.9MB/s 
+Installing collected packages: wheel, protobuf, funcsigs, pbr, mock, tensorflow
+Exception:
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/commands/install.py", line 342, in run
+    prefix=options.prefix_path,
+  File "/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/req/req_set.py", line 784, in install
+    **kwargs
+  File "/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/req/req_install.py", line 851, in install
+    self.move_wheel_files(self.source_dir, root=root, prefix=prefix)
+  File "/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/req/req_install.py", line 1064, in move_wheel_files
+    isolated=self.isolated,
+  File "/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/wheel.py", line 345, in move_wheel_files
+    clobber(source, lib_dir, True)
+  File "/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/wheel.py", line 316, in clobber
+    ensure_dir(destdir)
+  File "/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/utils/__init__.py", line 83, in ensure_dir
+    os.makedirs(path)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 13] Permission denied: '/Library/Python/2.7/site-packages/wheel'
+/Library/Python/2.7/site-packages/pip-9.0.1-py2.7.egg/pip/_vendor/requests/packages/urllib3/util/ssl_.py:122: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. You can upgrade to a newer version of Python to solve this. For more information, see https://urllib3.readthedocs.io/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+Users-MacBook-Pro-3:site-packages user$ sudo -H pip3 install --upgrade pip 
+Password:
+Requirement already up-to-date: pip in /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages
+Users-MacBook-Pro-3:site-packages user$ sl
+-bash: sl: command not found
+Users-MacBook-Pro-3:site-packages user$ ls
+OleFileIO_PL.py					oauthlib-2.0.1-py2.7.egg-info			six-1.10.0.dist-info
+OleFileIO_PL.pyc				olefile						six.py
+PIL						olefile-0.44-py2.7.egg-info			six.pyc
+Pillow-4.0.0.dist-info				pip-9.0.1-py2.7.egg				sklearn
+README						requests					textblob
+againagaintry.py				requests-2.13.0-py2.7.egg			textblob-0.11.1.dist-info
+easy-install.pth				requests-2.13.0.dist-info			tweepy
+examples					requests_oauthlib				tweepy-3.5.0-py2.7.egg
+nltk						requests_oauthlib-0.7.0-py2.7.egg		tweepy-3.5.0.dist-info
+nltk-3.2.2-py2.7.egg-info			requests_oauthlib-0.7.0.dist-info		tweepy2.py
+numpy-1.12.0-py2.7-macosx-10.9-intel.egg	scikit_learn-0.18.1.dist-info
+oauthlib					six-1.10.0-py2.7.egg
+Users-MacBook-Pro-3:site-packages user$ cd .. 
+Users-MacBook-Pro-3:2.7 user$ ls
+site-packages
+Users-MacBook-Pro-3:2.7 user$ cd ..
+Users-MacBook-Pro-3:Python user$ ls
+2.3	2.5	2.6	2.7
+Users-MacBook-Pro-3:Python user$ cd ..
+Users-MacBook-Pro-3:Library user$ ls
+Application Support	CoreMediaIO		Frameworks		LaunchAgents		Preferences		Screen Savers		Updates
+Audio			Desktop Pictures	Google			LaunchDaemons		Printers		ScriptingAdditions	User Pictures
+Bundles			Developer		Graphics		Logs			PrivilegedHelperTools	Scripts			Video
+Caches			Dictionaries		Image Capture		Messages		Python			Security		WebServer
+ColorPickers		DirectoryServices	Input Methods		Modem Scripts		QuickLook		Speech			Widgets
+ColorSync		Documentation		Internet Plug-Ins	OpenDirectory		QuickTime		Spelling		iTunes
+Components		Extensions		Java			PDF Services		Receipts		Spotlight
+Compositions		Filesystems		Keyboard Layouts	Perl			Ruby			StartupItems
+Contextual Menu Items	Fonts			Keychains		PreferencePanes		Sandbox			SystemProfiler
+Users-MacBook-Pro-3:Library user$ cd ..
+Users-MacBook-Pro-3:/ user$ ls
+Applications	Network		Users		bin		etc		mach_kernel	private		tmp		var
+Library		System		Volumes		dev		home		net		sbin		usr
+Users-MacBook-Pro-3:/ user$ cd Library
+Users-MacBook-Pro-3:Library user$ ls
+Application Support	CoreMediaIO		Frameworks		LaunchAgents		Preferences		Screen Savers		Updates
+Audio			Desktop Pictures	Google			LaunchDaemons		Printers		ScriptingAdditions	User Pictures
+Bundles			Developer		Graphics		Logs			PrivilegedHelperTools	Scripts			Video
+Caches			Dictionaries		Image Capture		Messages		Python			Security		WebServer
+ColorPickers		DirectoryServices	Input Methods		Modem Scripts		QuickLook		Speech			Widgets
+ColorSync		Documentation		Internet Plug-Ins	OpenDirectory		QuickTime		Spelling		iTunes
+Components		Extensions		Java			PDF Services		Receipts		Spotlight
+Compositions		Filesystems		Keyboard Layouts	Perl			Ruby			StartupItems
+Contextual Menu Items	Fonts			Keychains		PreferencePanes		Sandbox			SystemProfiler
+Users-MacBook-Pro-3:Library user$ cd Frameworks
+Users-MacBook-Pro-3:Frameworks user$ ls
+AEProfiling.framework		NyxAudioAnalysis.framework	iLifeFaceRecognition.framework	iLifeSQLAccess.framework
+AERegistration.framework	PluginManager.framework		iLifeKit.framework		iLifeSlideshow.framework
+AudioMixEngine.framework	Python.framework		iLifePageLayout.framework	iTunesLibrary.framework
+Users-MacBook-Pro-3:Frameworks user$ Python.framework
+-bash: Python.framework: command not found
+Users-MacBook-Pro-3:Frameworks user$ cd Python.framework
+Users-MacBook-Pro-3:Python.framework user$ ls
+Headers		Python		Resources	Versions
+Users-MacBook-Pro-3:Python.framework user$ cd Python
+-bash: cd: Python: No such file or directory
+Users-MacBook-Pro-3:Python.framework user$ cd Versions
+Users-MacBook-Pro-3:Versions user$ ls
+3.6
+Users-MacBook-Pro-3:Versions user$ ls
+3.6
+Users-MacBook-Pro-3:Versions user$ cd 3.6
+Users-MacBook-Pro-3:3.6 user$ ls
+Headers		Python		Resources	bin		etc		include		lib		share
+Users-MacBook-Pro-3:3.6 user$ cd Python
+-bash: cd: Python: Not a directory
+Users-MacBook-Pro-3:3.6 user$ cd ..
+Users-MacBook-Pro-3:Versions user$ cd Resources
+-bash: cd: Resources: No such file or directory
+Users-MacBook-Pro-3:Versions user$ ls
+3.6
+Users-MacBook-Pro-3:Versions user$ cd 3.6
+Users-MacBook-Pro-3:3.6 user$ ls
+Headers		Python		Resources	bin		etc		include		lib		share
+Users-MacBook-Pro-3:3.6 user$ cd Resources
+Users-MacBook-Pro-3:Resources user$ ls
+English.lproj	Info.plist	Python.app
+Users-MacBook-Pro-3:Resources user$ cd Python.app
+Users-MacBook-Pro-3:Python.app user$ ls
+Contents
+Users-MacBook-Pro-3:Python.app user$ cd Contents
+Users-MacBook-Pro-3:Contents user$ ls
+Info.plist	MacOS		PkgInfo		Resources
+Users-MacBook-Pro-3:Contents user$ cd Resources 
+Users-MacBook-Pro-3:Resources user$ ls
+PythonApplet.icns	PythonInterpreter.icns
+Users-MacBook-Pro-3:Resources user$ cd PythonInterpreter.icns
+-bash: cd: PythonInterpreter.icns: Not a directory
+Users-MacBook-Pro-3:Resources user$ cd PythonApplet.icns
+-bash: cd: PythonApplet.icns: Not a directory
+Users-MacBook-Pro-3:Resources user$ ls
+PythonApplet.icns	PythonInterpreter.icns
+Users-MacBook-Pro-3:Resources user$ cd .. 
+Users-MacBook-Pro-3:Contents user$ ls
+Info.plist	MacOS		PkgInfo		Resources
+Users-MacBook-Pro-3:Contents user$ cd PkgInfo
+-bash: cd: PkgInfo: Not a directory
+Users-MacBook-Pro-3:Contents user$ ls
+Info.plist	MacOS		PkgInfo		Resources
+Users-MacBook-Pro-3:Contents user$ cd ..
+Users-MacBook-Pro-3:Python.app user$ cd ..
+Users-MacBook-Pro-3:Resources user$  ls
+English.lproj	Info.plist	Python.app
+Users-MacBook-Pro-3:Resources user$ cd ..
+Users-MacBook-Pro-3:3.6 user$ ls
+Headers		Python		Resources	bin		etc		include		lib		share
+Users-MacBook-Pro-3:3.6 user$ cd .. 
+Users-MacBook-Pro-3:Versions user$ ls
+3.6
+Users-MacBook-Pro-3:Versions user$ cd ..
+Users-MacBook-Pro-3:Python.framework user$ ls
+Headers		Python		Resources	Versions
+Users-MacBook-Pro-3:Python.framework user$ cd ..
+Users-MacBook-Pro-3:Frameworks user$ cd ..
+Users-MacBook-Pro-3:Library user$ cd ..
+Users-MacBook-Pro-3:/ user$ ls
+Applications	Network		Users		bin		etc		mach_kernel	private		tmp		var
+Library		System		Volumes		dev		home		net		sbin		usr
+Users-MacBook-Pro-3:/ user$ cd Library
+Users-MacBook-Pro-3:Library user$ ls
+Application Support	CoreMediaIO		Frameworks		LaunchAgents		Preferences		Screen Savers		Updates
+Audio			Desktop Pictures	Google			LaunchDaemons		Printers		ScriptingAdditions	User Pictures
+Bundles			Developer		Graphics		Logs			PrivilegedHelperTools	Scripts			Video
+Caches			Dictionaries		Image Capture		Messages		Python			Security		WebServer
+ColorPickers		DirectoryServices	Input Methods		Modem Scripts		QuickLook		Speech			Widgets
+ColorSync		Documentation		Internet Plug-Ins	OpenDirectory		QuickTime		Spelling		iTunes
+Components		Extensions		Java			PDF Services		Receipts		Spotlight
+Compositions		Filesystems		Keyboard Layouts	Perl			Ruby			StartupItems
+Contextual Menu Items	Fonts			Keychains		PreferencePanes		Sandbox			SystemProfiler
+Users-MacBook-Pro-3:Library user$ cd Python
+Users-MacBook-Pro-3:Python user$ ls
+2.3	2.5	2.6	2.7
+Users-MacBook-Pro-3:Python user$ sudo apt-get remove Python2.7
+Password:
+sudo: apt-get: command not found
+Users-MacBook-Pro-3:Python user$ sudo pip3 install tensorflow
+\The directory '/Users/user/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/Users/user/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting tensorflow
+  Could not find a version that satisfies the requirement tensorflow (from versions: )
+No matching distribution found for tensorflow
+Users-MacBook-Pro-3:Python user$ sudo pip3 install tensorflow
+The directory '/Users/user/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/Users/user/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting tensorflow
+  Could not find a version that satisfies the requirement tensorflow (from versions: )
+No matching distribution found for tensorflow
+Users-MacBook-Pro-3:Python user$ ls
+2.3	2.5	2.6	2.7
+Users-MacBook-Pro-3:Python user$ cd 2.7
+Users-MacBook-Pro-3:2.7 user$ ls
+site-packages
+Users-MacBook-Pro-3:2.7 user$ ls
+site-packages
+Users-MacBook-Pro-3:2.7 user$ cd ..
+Users-MacBook-Pro-3:Python user$ ls
+2.3	2.5	2.6	2.7
+Users-MacBook-Pro-3:Python user$ mkdir 3.6
+mkdir: 3.6: Permission denied
+Users-MacBook-Pro-3:Python user$ ls
+2.3	2.5	2.6	2.7
+Users-MacBook-Pro-3:Python user$ sudo mkdir 3.6
+Password:
+Users-MacBook-Pro-3:Python user$ ls
+2.3	2.5	2.6	2.7	3.6
+Users-MacBook-Pro-3:Python user$ cd 3.6
+Users-MacBook-Pro-3:3.6 user$ sudo mkdir site-packages 
+Users-MacBook-Pro-3:3.6 user$ ls
+site-packages
